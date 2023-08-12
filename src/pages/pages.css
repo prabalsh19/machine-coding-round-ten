@@ -1,0 +1,90 @@
+.inventory {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.card {
+  width: 250px;
+  height: 150px;
+  background-color: rgb(188, 187, 187);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  font-weight: bold;
+  font-size: large;
+}
+.green {
+  color: green;
+}
+.orange {
+  color: orange;
+}
+.red {
+  color: red;
+}
+
+.department {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.department a {
+  color: black;
+  text-decoration: none;
+}
+.products-nav {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 2rem;
+  margin-right: 1rem;
+  align-items: center;
+}
+.products-nav button {
+  background-color: rgb(2, 123, 255);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+table img {
+  width: 100px;
+}
+table {
+  border: 1px solid black;
+  width: 98%;
+  text-align: left;
+}
+table tr {
+  border: 1px solid black;
+}
+th {
+  padding: 10px;
+}
+table .heading {
+  background-color: rgb(213, 213, 213);
+}
+.add-product label {
+  display: block;
+}
+.add-product label {
+  margin-top: 1rem;
+}
+.add-product input {
+  width: 40%;
+  padding: 5px;
+}
+.add-product button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: rgb(2, 123, 255);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.vertical-img {
+  width: 350px;
+}
